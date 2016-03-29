@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Brute Force - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3741.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Brute Force.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\Projects\BookChapter\BookDemos\R_II_BruteForce\MGLApp.cpp"
+"G:\Projects\BookChapter\BookDemos\R_II_BruteForce\MGLWin32.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3741.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3742.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Brute Force.pdb" /debug /machine:I386 /out:"Debug/Brute Force.exe" /pdbtype:sept 
+.\Debug\CFrustum.obj
+.\Debug\CGLFontClass.obj
+.\Debug\CHeightClass.obj
+.\Debug\CTerrainVBOCull.obj
+.\Debug\MGLApp.obj
+.\Debug\MGLTargaImage.obj
+.\Debug\MGLWin32.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3742.tmp"
+<h3>Output Window</h3>
+Compiling...
+MGLApp.cpp
+MGLWin32.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Brute Force.bsc"  .\Debug\CFrustum.sbr .\Debug\CGLFontClass.sbr .\Debug\CHeightClass.sbr .\Debug\CTerrainVBOCull.sbr .\Debug\MGLApp.sbr .\Debug\MGLTargaImage.sbr .\Debug\MGLWin32.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Brute Force.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
