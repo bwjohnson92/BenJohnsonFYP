@@ -7,3 +7,5 @@ This software was used to examine the difference between a Dijkstra algorithm, a
 Speed ups of around 60% were seen between A* and modified A*.
 
 I'm not necessarily proud of the code standards that have been followed here, but I certainly learnt a lot whilst doing it!
+
+Thanks to Brian Story for helping develop the code that generates the terrain (perlin noise, midpoint, etc.)
